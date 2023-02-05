@@ -1,11 +1,9 @@
 package example1.model;
 
-import jakarta.persistence.JoinColumn;
+
 
 import java.util.Date;
 
-import jakarta.persistence.CascadeType;
-import jakarta.persistence.OneToOne;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
