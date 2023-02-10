@@ -34,3 +34,5 @@ build/
 
 ### Eclipse ###
 .class
+.yml
+.properties

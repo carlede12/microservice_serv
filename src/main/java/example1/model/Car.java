@@ -12,7 +12,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "cars")
+@Table(name = "stock")
 public class Car {
 	
 	
@@ -28,11 +28,15 @@ public class Car {
 	private Date registred;
 	
 
+    	
 	
+	
+	public Car() {
+		super();
+	}
 
-	
-	
-	
+
+
 	public Car(int id, String brand, String model, int year, String lot, String status, boolean available,
 			Date registred) {
 		super();
