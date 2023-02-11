@@ -4,3 +4,5 @@ It is an exercise of consulting a stock of cars using examples of streams and CR
 This microservice is encapsulated in a docker container running in the cloud,,
 To test it using postman you can make a query if:GET  https://microservice-serv0-5twqtdsjfq-vp.a.run.app/api/carstock
 With this you will have the query of the entire stock of cars.
+
+In addition to query the available cars (true), GET https://microservice-serv0-5twqtdsjfq-vp.a.run.app/api/carstock/available
